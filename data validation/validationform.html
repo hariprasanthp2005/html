@@ -1,0 +1,38 @@
+<html>
+   <head>
+    <title>
+        registration 
+    </title>
+    </head>
+    <body>
+        <h2>form</h2>
+        <form action="/loc">
+        <div>
+            name : <input type="text" required >
+            </div>
+           <div>
+             email :    <input type="email"required >
+             </div>
+           <div>
+            gender :    <input type="radio" name="ab">male
+            <input type="radio" name="ab">female
+            </div>
+           <div>
+            phone  no : <input type="text"required pattern="[6-9]\d{9}">
+            </div>
+            <div>
+            reg id :    <input type="text"required maxlength="10" minlength="5" >
+            </div>
+            <div>
+            password :  <input type="password" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[^A-Za-z0-9]).{8,}$"
+            title = "password contain 8 char,1 uppercase,1 lowecase, 1 symbol">
+              
+            </div>
+
+            <input type="checkbox" required > please click <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=GLSBYFE9MGKKQXXM" target="blank">terms and condition</a><br><br>
+            <input type="submit" value="registration">
+            <input type="reset" value="cancel">
+            </form>
+        
+    </body> 
+</html>
